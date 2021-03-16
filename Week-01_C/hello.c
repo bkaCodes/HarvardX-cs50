@@ -6,6 +6,6 @@
 int main(void)
 {
     //greet the user
-    string answer = get_string("Hi! What's your name?\n");
-    printf("hello %s! \n", answer);
+    string answer = get_string("What is your name?\n");
+    printf("hello, %s\n", answer);
 }
